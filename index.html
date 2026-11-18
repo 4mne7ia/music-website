@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSIC ARCHIVE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>MUSIC ARCHIVE</h1>
+        <p>ЦИФРОВИЙ МУЗИЧНИЙ ЖУРНАЛ · 2026</p>
+    </header>
+    <main>
+        <h2 class="section-title">МУЗИКА — ЦЕ БІЛЬШЕ, НІЖ ЗВУК</h2>
+        <p>Музика — це спосіб зберегти спогади, передати емоції та розповісти історії без жодного слова. </p>
+        <p> Ласкаво просимо до музичного архіву, присвяченого виконавцям, альбомам, жанрам та культовим музичним творам.
+        </p>
+        <a href="#collection">ДОСЛІДИТИ АРХІВ</a>
+        <section>
+            <h2 class="section-title">01. ВИБРАНІ ВИКОНАВЦІ</h2>
+            <p>Музиканти, чия творчість залишила слід в історії сучасної музики.</p>
+            <article class="artist-card">
+                <h3>Lana Del Rey</h3>
+                <p>ALTERNATIVE · DREAM POP</p>
+                <p>Меланхолійні мелодії, кінематографічна естетика та атмосфера американської ностальгії.</p>
+            </article>
+            <div class="conflict-note">
+                <p>CSS CONFLICT 01 / РОЗМІР ШРИФТУ</p>
+                <p>h3 → (0, 0, 1)</p>
+                <p>.artist-card h3 → (0, 1, 1)</p>
+                <p>Переможець: .artist-card h3</p>
+                <p>Причина: селектор .artist-card h3 має вищу специфічність завдяки наявності класу.</p>
+            </div>
+            <article class="artist-card">
+                <h3>The Weeknd</h3>
+                <p>R&B · SYNTH-POP</p>
+                <p>Поєднання електронного звучання, атмосферних композицій та емоційних історій.</p>
+            </article>
+            <article class="artist-card">
+                <h3>Deftones</h3>
+                <p>ALTERNATIVE METAL · SHOEGAZE</p>
+                <p>Важкі гітарні партії, повітряний вокал і контраст між агресією та меланхолією.</p>
+            </article>
+        </section>
+        <section id="collection">
+            <h2 id="archive-title" class="section-title">02. МУЗИЧНА КОЛЕКЦІЯ</h2>
+            <div class="conflict-note">
+                <p>CSS CONFLICT 02 / КОЛІР ЗАГОЛОВКА</p>
+                <p>.section-title → (0, 1, 0)</p>
+                <p>#archive-title → (1, 0, 0)</p>
+                <p>Переможець: #archive-title</p>
+                <p>Причина: селектор ID має вищу специфічність, ніж селектор класу, тому заголовок стає білим.</p>
+            </div>
+            <p> Кожен альбом — це окрема історія, настрій та власний музичний всесвіт.</p>
+            <ul>
+                <li>Born to Die — Lana Del Rey</li>
+                <li>After Hours — The Weeknd</li>
+                <li>White Pony — Deftones</li>
+                <li>AM — Arctic Monkeys</li>
+                <li>In Rainbows — Radiohead</li>
+                <li>Nevermind — Nirvana</li>
+            </ul>
+        </section>
+        <section>
+            <h2 class="section-title">03. МУЗИЧНІ ЖАНРИ</h2>
+            <p>Кожен жанр має свій характер. Знайди звучання, яке відповідає твоєму настрою.</p>
+            <div>
+                <ul class="genre-list">
+                    <li>
+                        <h3>Alternative Rock</h3>
+                        <p>Музика поза звичними рамками.</p>
+                    </li>
+                    <li>
+                        <h3>Indie Pop</h3>
+                        <p>Незалежне звучання та незвичайні мелодії.</p>
+                    </li>
+                    <li>
+                        <h3>Gothic Rock</h3>
+                        <p>Темна атмосфера та виразна естетика.</p>
+                    </li>
+                    <li>
+                        <h3>Dream Pop</h3>
+                        <p>Повітряні композиції та мрійливе звучання.</p>
+                    </li>
+                    <li>
+                        <h3>Trip-Hop</h3>
+                        <p>Повільні ритми та експериментальна електроніка.</p>
+                    </li>
+                    <li>
+                        <h3>Metal</h3>
+                        <p>Потужне звучання та невичерпна енергія.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2 class="section-title">04. МУЗИКА ЗА НАСТРОЄМ</h2>
+            <p>Іноді складно описати свій стан словами. Але завжди можна знайти музику, яка його передасть.</p>
+
+            <div>
+                <ol>
+                    <li>
+                        <h3>MELANCHOLY / МЕЛАНХОЛІЯ</h3>
+                        <p>Для тихих вечорів і довгих роздумів.</p>
+                    </li>
+                    <li>
+                        <h3>DARKNESS / ТЕМРЯВА</h3>
+                        <p>Для занурення в атмосферу загадковості.</p>
+                    </li>
+                    <li>
+                        <h3>ENERGY / ЕНЕРГІЯ</h3>
+                        <p>Для моментів, коли хочеться відчути рух.</p>
+                    </li>
+                    <li>
+                        <h3>NOSTALGIA / НОСТАЛЬГІЯ</h3>
+                        <p>Для спогадів про людей, місця та події.</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+        <section>
+            <h2 class="section-title">05. ПРО ПРОЄКТ</h2>
+            <p>Музика не має єдиного правильного трактування.</p>
+            <p>MUSIC ARCHIVE — це невеликий простір для тих, хто сприймає музику не просто як фон, а як частину власної
+                історії.</p>
+            <p>Тут немає правильних чи неправильних музичних уподобань. Є лише звучання, яке знаходить відгук.</p>
+        </section>
+        <footer>
+            <p>КІНЕЦЬ ПЕРЕДАЧІ · MUSIC ARCHIVE © 2026</p>
+        </footer>
+    </main>
+</body>
+
+</html>
